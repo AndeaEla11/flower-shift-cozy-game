@@ -97,3 +97,14 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# =====================
+# Project-specific large assets (GitHub 100MB limit)
+# =====================
+
+# Large 3D source files
+*.fbx
+
+# Ignore the big bought scene folder 
+Assets/[MySimsWorld]FlowerShop/
+Assets/[MySimsWorld]FlowerShop.meta
